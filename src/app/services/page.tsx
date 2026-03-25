@@ -26,7 +26,7 @@ const services = [
       "Monthly ROI reporting",
     ],
     cta: "Talk to Us",
-    ctaHref: "mailto:admin@aegisgov.ai?subject=Fractional AI Officer Inquiry",
+    ctaHref: "mailto:sales@aegisgov.ai?subject=Fractional AI Officer Inquiry",
     highlight: true,
   },
   {
@@ -47,7 +47,7 @@ const services = [
       "Written report delivered in 5 days",
     ],
     cta: "Get Assessed",
-    ctaHref: "mailto:admin@aegisgov.ai?subject=AI Readiness Assessment",
+    ctaHref: "mailto:sales@aegisgov.ai?subject=AI Readiness Assessment",
     highlight: false,
   },
   {
@@ -69,7 +69,7 @@ const services = [
       "30 days of support",
     ],
     cta: "Get a Quote",
-    ctaHref: "mailto:admin@aegisgov.ai?subject=Proposal Automation Package",
+    ctaHref: "mailto:sales@aegisgov.ai?subject=Proposal Automation Package",
     highlight: false,
   },
 ];
@@ -198,7 +198,7 @@ export default function ServicesPage() {
             Start with the AI Readiness Assessment. It maps your opportunities and tells you exactly where to invest.
           </p>
           <a
-            href="mailto:admin@aegisgov.ai?subject=AI Readiness Assessment"
+            href="mailto:sales@aegisgov.ai?subject=AI Readiness Assessment"
             className="btn-primary text-lg"
           >
             Get Your Free AI Assessment →

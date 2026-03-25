@@ -45,10 +45,10 @@ export default function Nav() {
             Playbook
           </Link>
           <a
-            href="mailto:admin@aegisgov.ai"
+            href="mailto:sales@aegisgov.ai"
             className="btn-primary !px-6 !py-2.5 !text-sm"
           >
-            Book a Call
+            Get Your Free Assessment
           </a>
         </div>
 
@@ -95,11 +95,11 @@ export default function Nav() {
             Playbook
           </Link>
           <a
-            href="mailto:admin@aegisgov.ai"
+            href="mailto:sales@aegisgov.ai"
             className="btn-primary !py-3 text-center"
             onClick={() => setMenuOpen(false)}
           >
-            Book a Call
+            Get Your Free Assessment
           </a>
         </div>
       )}

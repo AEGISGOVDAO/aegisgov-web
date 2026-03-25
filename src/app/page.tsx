@@ -94,7 +94,7 @@ export default function HomePage() {
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a href="mailto:admin@aegisgov.ai?subject=Free AI Assessment" className="btn-primary text-lg">
+              <a href="mailto:sales@aegisgov.ai?subject=Free AI Assessment" className="btn-primary text-lg">
                 Get Your Free AI Assessment
                 <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
@@ -303,10 +303,10 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="mailto:admin@aegisgov.ai?subject=Free AI Assessment Request"
+              href="mailto:sales@aegisgov.ai?subject=Free AI Assessment Request"
               className="btn-primary text-lg"
             >
-              Book a Call →
+              Get Your Free Assessment →
             </a>
             <Link href="/services" className="btn-outline-white text-lg">
               See Pricing

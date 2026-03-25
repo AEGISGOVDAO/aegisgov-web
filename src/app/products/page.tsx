@@ -203,7 +203,7 @@ export default function ProductsPage() {
           <div className="text-center mt-10">
             <p className="text-white/40 text-sm mb-4">Want early access? Let us know what you need most.</p>
             <a
-              href="mailto:admin@aegisgov.ai?subject=Product Feedback"
+              href="mailto:sales@aegisgov.ai?subject=Product Feedback"
               className="btn-outline-white !text-sm !px-6 !py-3"
             >
               Share Your Needs

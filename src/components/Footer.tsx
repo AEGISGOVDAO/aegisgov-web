@@ -51,10 +51,10 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="mailto:admin@aegisgov.ai"
+                  href="mailto:sales@aegisgov.ai"
                   className="text-white/50 hover:text-gold text-sm transition-colors"
                 >
-                  admin@aegisgov.ai
+                  sales@aegisgov.ai
                 </a>
               </li>
               <li>
