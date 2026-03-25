@@ -38,6 +38,12 @@ export default function Nav() {
           >
             Products
           </Link>
+          <Link
+            href="/playbook"
+            className="text-white/70 hover:text-white transition-colors text-sm font-medium"
+          >
+            Playbook
+          </Link>
           <a
             href="mailto:admin@aegisgov.ai"
             className="btn-primary !px-6 !py-2.5 !text-sm"
@@ -80,6 +86,13 @@ export default function Nav() {
             onClick={() => setMenuOpen(false)}
           >
             Products
+          </Link>
+          <Link
+            href="/playbook"
+            className="text-white/80 hover:text-white font-medium py-2"
+            onClick={() => setMenuOpen(false)}
+          >
+            Playbook
           </Link>
           <a
             href="mailto:admin@aegisgov.ai"
