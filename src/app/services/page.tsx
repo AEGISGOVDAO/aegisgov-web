@@ -25,35 +25,34 @@ const services = [
       "Compliance document templates",
       "Monthly ROI reporting",
     ],
-    cta: "Talk to Us",
-    ctaHref: "mailto:sales@aegisgov.ai?subject=Fractional AI Officer Inquiry",
+    cta: "Get Started",
+    ctaHref: "https://buy.stripe.com/9B6cN5atkfzS2OK4lK5Vu02",
     highlight: true,
   },
   {
     name: "AI Readiness Assessment",
     tagline: "Know exactly where AI can help you win more",
-    price: "$97 – $347",
+    price: "$197",
     period: " one-time",
     badge: "Start Here",
     badgeColor: "bg-white/10 text-white",
-    desc: "Not sure where to start? We audit your current proposal workflow, compliance process, and business development operations — then deliver a prioritized roadmap showing exactly where AI saves you the most time and money.",
+    desc: "Not sure where to start? We analyze your proposal workflow, compliance processes, and BD operations — then deliver a prioritized roadmap showing exactly where AI saves you the most time and money. Delivered in 24 hours.",
     includes: [
-      "1-hour workflow audit call",
-      "Proposal process analysis",
-      "Compliance gap review",
-      "Prioritized AI opportunity map",
-      "Tool recommendations",
-      "Implementation roadmap",
-      "Written report delivered in 5 days",
+      "Top 5 AI automation opportunities (ranked by ROI)",
+      "Estimated hours saved per week",
+      "Tool recommendations with costs",
+      "30-day implementation roadmap",
+      "Written for YOUR business — not a generic template",
+      "Delivered within 24 hours",
     ],
-    cta: "Get Assessed",
-    ctaHref: "mailto:sales@aegisgov.ai?subject=AI Readiness Assessment",
+    cta: "Get Your Assessment — $197",
+    ctaHref: "https://buy.stripe.com/7sY14nbxo5Zi0GCf0o5Vu00",
     highlight: false,
   },
   {
     name: "Proposal Automation Package",
     tagline: "Cut proposal time in half — or more",
-    price: "$2,000 – $5,000",
+    price: "$2,997",
     period: " one-time",
     badge: "High ROI",
     badgeColor: "bg-white/10 text-white",
@@ -68,8 +67,8 @@ const services = [
       "Team training (2 hours)",
       "30 days of support",
     ],
-    cta: "Get a Quote",
-    ctaHref: "mailto:sales@aegisgov.ai?subject=Proposal Automation Package",
+    cta: "Get Proposal Automation",
+    ctaHref: "https://buy.stripe.com/aFa7sL8lc9bu0GC8C05Vu01",
     highlight: false,
   },
 ];
@@ -144,6 +143,8 @@ export default function ServicesPage() {
 
                 <a
                   href={service.ctaHref}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className={service.highlight ? "btn-primary text-center" : "btn-secondary text-center"}
                 >
                   {service.cta}
@@ -198,10 +199,12 @@ export default function ServicesPage() {
             Start with the AI Readiness Assessment. It maps your opportunities and tells you exactly where to invest.
           </p>
           <a
-            href="mailto:sales@aegisgov.ai?subject=AI Readiness Assessment"
-            className="btn-primary text-lg"
+            href="https://buy.stripe.com/7sY14nbxo5Zi0GCf0o5Vu00"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-lg px-10 py-5 rounded-xl transition-all shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:-translate-y-0.5"
           >
-            Get Your Free AI Assessment →
+            Get Your AI Assessment — $197 →
           </a>
         </div>
       </section>

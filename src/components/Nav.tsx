@@ -45,10 +45,12 @@ export default function Nav() {
             Playbook
           </Link>
           <a
-            href="mailto:sales@aegisgov.ai"
-            className="btn-primary !px-6 !py-2.5 !text-sm"
+            href="https://buy.stripe.com/7sY14nbxo5Zi0GCf0o5Vu00"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-sm px-6 py-2.5 rounded-xl transition-all shadow-md shadow-gold/20 hover:shadow-gold/40 hover:-translate-y-0.5"
           >
-            Get Your Free Assessment
+            Get Your Assessment — $197
           </a>
         </div>
 
@@ -95,11 +97,13 @@ export default function Nav() {
             Playbook
           </Link>
           <a
-            href="mailto:sales@aegisgov.ai"
-            className="btn-primary !py-3 text-center"
+            href="https://buy.stripe.com/7sY14nbxo5Zi0GCf0o5Vu00"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-sm py-3 px-6 rounded-xl transition-all w-full"
             onClick={() => setMenuOpen(false)}
           >
-            Get Your Free Assessment
+            Get Your Assessment — $197
           </a>
         </div>
       )}
