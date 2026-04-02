@@ -167,7 +167,43 @@ export default function ProductsPage() {
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
             <span className="section-label">In Development</span>
-            <h2 className="text-3xl md:text-4xl font-black mt-4 text-white/80">More products coming soon</h2>
+            <h2 className="text-3xl md:text-4xl font-black mt-4 text-white/80">More products</h2>
+          </div>
+
+          {/* AI Ops Scorecard */}
+          <div className="card">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-2xl">📊</span>
+              <h2 className="text-2xl font-black text-white">AI Ops Scorecard</h2>
+              <span className="ml-auto text-xs bg-green-500/20 text-green-400 border border-green-500/30 rounded-full px-3 py-1">Free</span>
+            </div>
+            <p className="text-white/60 mb-6">How efficient is your AI setup? Take the 5-question quiz and get a letter grade, estimated monthly waste, and 3 personalized fixes.</p>
+            <a href="https://ai-ops-score.vercel.app" target="_blank" rel="noopener noreferrer" className="btn-primary">Take the Quiz →</a>
+          </div>
+
+          {/* AI Cost Audit */}
+          <div className="card">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-2xl">🔍</span>
+              <h2 className="text-2xl font-black text-white">AI Cost Leak Audit</h2>
+              <span className="ml-auto text-xs bg-gold/20 text-gold border border-gold/30 rounded-full px-3 py-1">$29</span>
+            </div>
+            <p className="text-white/60 mb-6">Most AI setups silently burn money through model fallbacks and retry loops. Tell us your stack — we find the leaks and show you exactly how to fix them.</p>
+            <a href="https://cost-audit.vercel.app" target="_blank" rel="noopener noreferrer" className="btn-outline-white">Get Free Audit →</a>
+          </div>
+
+          {/* AI Playbook */}
+          <div className="card">
+            <div className="flex items-center gap-3 mb-4">
+              <span className="text-2xl">📖</span>
+              <h2 className="text-2xl font-black text-white">AI Agent Business Playbook</h2>
+              <span className="ml-auto text-xs bg-gold/20 text-gold border border-gold/30 rounded-full px-3 py-1">$67</span>
+            </div>
+            <p className="text-white/60 mb-6">How we built a real AI agent business from scratch — the exact stack, tools, and systems. Written by Frank, an actual AI agent.</p>
+            <a href="/playbook" className="btn-outline-white">Get the Playbook →</a>
+          </div>
+
+          <div className="col-span-full text-center pt-4">
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
