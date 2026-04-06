@@ -14,8 +14,8 @@ const rfps = [
     naics: '541512',
     setAside: 'SDVOSB',
     value: '$8.5M IDIQ',
-    deadline: 'April 30, 2026',
     slug: 'va-it-infrastructure',
+    pdf: '/samples/rfp-sample-va-it-infrastructure.pdf',
   },
   {
     label: 'Sample #2',
@@ -24,8 +24,8 @@ const rfps = [
     naics: '541519',
     setAside: 'Total Small Business',
     value: '$4.2M',
-    deadline: 'May 15, 2026',
     slug: 'dod-cybersecurity',
+    pdf: '/samples/rfp-sample-dod-cybersecurity.pdf',
   },
   {
     label: 'Sample #3',
@@ -34,8 +34,8 @@ const rfps = [
     naics: '541511',
     setAside: '8(a) Small Business',
     value: '$6.8M IDIQ',
-    deadline: 'May 30, 2026',
     slug: 'hhs-data-analytics',
+    pdf: '/samples/rfp-sample-hhs-data-analytics.pdf',
   },
 ]
 
@@ -68,7 +68,17 @@ export default function SamplesPage() {
             <div className="border border-gray-200 rounded-xl p-8 bg-white hover:shadow-md transition-shadow cursor-pointer">
               <div className="flex justify-between items-start flex-wrap gap-3 mb-4">
                 <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">{rfp.label}</span>
-                <span className="text-xs bg-green-50 text-green-700 border border-green-200 rounded-full px-3 py-1 font-semibold">View Full Breakdown →</span>
+                <div className="flex gap-2">
+                  <a
+                    href={rfp.pdf}
+                    download
+                    onClick={(e) => e.stopPropagation()}
+                    className="text-xs bg-blue-50 text-blue-700 border border-blue-200 rounded-full px-3 py-1 font-semibold hover:bg-blue-100 transition-colors no-underline"
+                  >
+                    Download PDF
+                  </a>
+                  <span className="text-xs bg-green-50 text-green-700 border border-green-200 rounded-full px-3 py-1 font-semibold">View Breakdown →</span>
+                </div>
               </div>
               <div className="text-sm text-gray-500 font-medium mb-2">{rfp.agency}</div>
               <h2 className="text-xl font-bold mb-4 text-gray-900">{rfp.title}</h2>

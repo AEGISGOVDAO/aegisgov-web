@@ -65,7 +65,17 @@ const meta = [
 export default function VA1Page() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12 text-gray-900 font-sans">
-      <Link href="/samples" className="text-blue-600 text-sm font-medium hover:underline">← Back to all samples</Link>
+      <div className="flex items-center justify-between flex-wrap gap-3">
+        <Link href="/samples" className="text-blue-600 text-sm font-medium hover:underline">← Back to all samples</Link>
+        <a
+          href="/samples/rfp-sample-va-it-infrastructure.pdf"
+          download
+          className="inline-flex items-center gap-2 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg no-underline text-sm font-semibold transition-colors"
+        >
+          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>
+          Download PDF
+        </a>
+      </div>
       <div className="mt-6 mb-2 inline-block px-3 py-1 bg-yellow-100 border border-yellow-300 rounded text-xs font-bold text-yellow-800 uppercase tracking-wider">Sample Breakdown</div>
       <h1 className="text-3xl font-extrabold mt-4 mb-2 leading-tight">IT Infrastructure Modernization & Support Services</h1>
       <p className="text-base text-gray-500 mb-4">Based on real federal solicitation structure — IT Services / SDVOSB</p>
