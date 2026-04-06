@@ -64,31 +64,35 @@ export default function SamplesPage() {
 
       <div className="space-y-6 mb-16">
         {rfps.map((rfp) => (
-          <Link key={rfp.slug} href={`/samples/${rfp.slug}`} className="block no-underline text-inherit">
-            <div className="border border-gray-200 rounded-xl p-8 bg-white hover:shadow-md transition-shadow cursor-pointer">
-              <div className="flex justify-between items-start flex-wrap gap-3 mb-4">
-                <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">{rfp.label}</span>
-                <div className="flex gap-2">
-                  <a
-                    href={rfp.pdf}
-                    download
-                    onClick={(e) => e.stopPropagation()}
-                    className="text-xs bg-blue-50 text-blue-700 border border-blue-200 rounded-full px-3 py-1 font-semibold hover:bg-blue-100 transition-colors no-underline"
-                  >
-                    Download PDF
-                  </a>
-                  <span className="text-xs bg-green-50 text-green-700 border border-green-200 rounded-full px-3 py-1 font-semibold">View Breakdown →</span>
-                </div>
-              </div>
-              <div className="text-sm text-gray-500 font-medium mb-2">{rfp.agency}</div>
-              <h2 className="text-xl font-bold mb-4 text-gray-900">{rfp.title}</h2>
-              <div className="flex gap-4 flex-wrap">
-                <span className="text-sm text-gray-600">📋 NAICS {rfp.naics}</span>
-                <span className="text-sm text-gray-600">🏷️ {rfp.setAside}</span>
-                <span className="text-sm text-gray-600">💰 {rfp.value}</span>
+          <div key={rfp.slug} className="border border-gray-200 rounded-xl p-8 bg-white hover:shadow-md transition-shadow">
+            <div className="flex justify-between items-start flex-wrap gap-3 mb-4">
+              <span className="text-xs font-bold text-gray-400 uppercase tracking-wider">{rfp.label}</span>
+              <div className="flex gap-2 flex-wrap">
+                <a
+                  href={rfp.pdf}
+                  download
+                  className="text-xs bg-blue-50 text-blue-700 border border-blue-200 rounded-full px-3 py-1 font-semibold hover:bg-blue-100 transition-colors no-underline"
+                >
+                  ↓ Download PDF
+                </a>
+                <Link
+                  href={`/samples/${rfp.slug}`}
+                  className="text-xs bg-green-50 text-green-700 border border-green-200 rounded-full px-3 py-1 font-semibold hover:bg-green-100 transition-colors no-underline"
+                >
+                  View Breakdown →
+                </Link>
               </div>
             </div>
-          </Link>
+            <div className="text-sm text-gray-500 font-medium mb-2">{rfp.agency}</div>
+            <Link href={`/samples/${rfp.slug}`} className="no-underline">
+              <h2 className="text-xl font-bold mb-4 text-gray-900 hover:text-blue-700 transition-colors">{rfp.title}</h2>
+            </Link>
+            <div className="flex gap-4 flex-wrap">
+              <span className="text-sm text-gray-600">💰 {rfp.value}</span>
+              <span className="text-sm text-gray-600">🏷️ {rfp.setAside}</span>
+              <span className="text-sm text-gray-600">📋 NAICS {rfp.naics}</span>
+            </div>
+          </div>
         ))}
       </div>
 
