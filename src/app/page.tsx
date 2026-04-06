@@ -100,6 +100,20 @@ export default function HomePage() {
             <p className="text-white/40 text-sm mt-4">
               Delivered in 24 hours. Includes your custom roadmap. 100% satisfaction guarantee.
             </p>
+
+            <div className="mt-8 pt-8 border-t border-white/10">
+              <p className="text-white/40 text-xs uppercase tracking-wider font-medium mb-3">Not sure yet? See what our analysis actually looks like</p>
+              <Link
+                href="/samples"
+                className="inline-flex items-center gap-2 text-gold hover:text-gold-light font-semibold text-base transition-colors group"
+              >
+                View sample RFP breakdowns →
+                <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                </svg>
+              </Link>
+              <p className="text-white/30 text-xs mt-1">Compliance checklist · Proposal outline · Win themes — free to view</p>
+            </div>
           </div>
         </div>
       </section>
