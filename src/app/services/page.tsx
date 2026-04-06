@@ -1,74 +1,72 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Services | Aegis Gov DAO LLC",
+  title: "Services | Aegis Gov AI",
   description:
-    "AI services for government contractors. Fractional AI Officer retainer, AI Readiness Assessment, and Proposal Automation Package.",
+    "AI-powered proposal intelligence for government contractors. RFP breakdowns from $1,500, or become a Fractional AI Officer client at $2,500/mo.",
 };
 
 const services = [
   {
-    name: "Fractional AI Officer",
-    tagline: "Your embedded AI expert, without the full-time cost",
-    price: "$2,500 – $4,000",
-    period: "/month",
-    badge: "Most Popular",
+    name: "RFP Breakdown — Standard",
+    tagline: "Full analysis of your exact solicitation",
+    price: "$1,500",
+    period: " per RFP",
+    badge: "Start Here",
     badgeColor: "bg-gold text-navy",
-    desc: "Get a dedicated AI officer who knows GovCon inside and out. We become part of your team — attending key meetings, auditing workflows, deploying tools, and keeping your AI strategy current as the landscape evolves.",
+    desc: "Send us any federal IT services RFP. We return a compliance checklist, full proposal outline, and key win themes mapped directly to the solicitation — in 24 hours. First analysis free so you can see the output before you buy.",
     includes: [
-      "Monthly AI strategy sessions",
-      "Workflow automation implementation",
-      "Tool selection and vendor evaluation",
-      "Proposal AI system setup and tuning",
-      "Staff training and adoption support",
-      "SAM.gov monitoring automation",
-      "Compliance document templates",
-      "Monthly ROI reporting",
+      "Compliance checklist mapped to your RFP requirements",
+      "Section-by-section proposal outline",
+      "Key win themes aligned to agency evaluation criteria",
+      "Full proposal draft (standard single-volume RFPs)",
+      "Written for your exact solicitation — not a template",
+      "Delivered within 24 hours",
     ],
-    cta: "Get Started",
-    ctaHref: "https://buy.stripe.com/9B6cN5atkfzS2OK4lK5Vu02",
+    cta: "Get Standard Package — $1,500",
+    ctaHref: "https://buy.stripe.com/eVqcN5atkdrK4WS7xW5Vu03",
     highlight: true,
   },
   {
-    name: "AI Readiness Assessment",
-    tagline: "Know exactly where AI can help you win more",
-    price: "$197",
-    period: " one-time",
-    badge: "Start Here",
+    name: "RFP Breakdown — Complex",
+    tagline: "Multi-volume RFPs, full proposal included",
+    price: "$2,500",
+    period: " per RFP",
+    badge: "Complex Bids",
     badgeColor: "bg-white/10 text-white",
-    desc: "Not sure where to start? We analyze your proposal workflow, compliance processes, and BD operations — then deliver a prioritized roadmap showing exactly where AI saves you the most time and money. Delivered in 24 hours.",
+    desc: "For multi-volume, high-value solicitations. Full compliance matrix, all proposal volumes drafted, past performance formatted, and one revision round included.",
     includes: [
-      "Top 5 AI automation opportunities (ranked by ROI)",
-      "Estimated hours saved per week",
-      "Tool recommendations with costs",
-      "30-day implementation roadmap",
-      "Written for YOUR business — not a generic template",
-      "Delivered within 24 hours",
+      "Full compliance matrix across all RFP sections",
+      "All proposal volumes drafted (Technical, Management, Price)",
+      "Past performance formatted to agency requirements",
+      "Win theme development and discriminator identification",
+      "One revision round included",
+      "Delivered within 48 hours",
     ],
-    cta: "Get Your Assessment — $197",
-    ctaHref: "https://buy.stripe.com/7sY14nbxo5Zi0GCf0o5Vu00",
+    cta: "Get Complex Package — $2,500",
+    ctaHref: "https://buy.stripe.com/00w6oH44WdrKblg2dC5Vu04",
     highlight: false,
   },
   {
-    name: "Proposal Automation Package",
-    tagline: "Cut proposal time in half — or more",
-    price: "$2,997",
-    period: " one-time",
-    badge: "High ROI",
+    name: "Fractional AI Officer",
+    tagline: "Your embedded AI expert, without the full-time cost",
+    price: "$2,500",
+    period: "/month",
+    badge: "Ongoing Support",
     badgeColor: "bg-white/10 text-white",
-    desc: "We build you a custom AI-powered proposal system: past performance library, capability statement templates, compliance checkers, and section drafting tools — all tuned to your NAICS codes, contract vehicles, and agency targets.",
+    desc: "Get a dedicated AI officer who knows GovCon inside and out. We become part of your team — handling proposal ops, SAM.gov monitoring, compliance tracking, and bid strategy on an ongoing basis.",
     includes: [
-      "Past performance library build",
-      "Capability statement AI templates",
-      "Solicitation analysis tool setup",
-      "Section-by-section AI draft system",
-      "FAR/DFAR compliance checklist",
-      "Win theme library",
-      "Team training (2 hours)",
-      "30 days of support",
+      "Unlimited RFP breakdowns (standard volume)",
+      "Monthly AI strategy and bid pipeline review",
+      "SAM.gov opportunity monitoring and alerts",
+      "Compliance document templates and updates",
+      "Proposal workflow automation setup",
+      "Staff training and adoption support",
+      "Monthly ROI reporting",
+      "Priority 24-hour turnaround on all deliverables",
     ],
-    cta: "Get Proposal Automation",
-    ctaHref: "https://buy.stripe.com/aFa7sL8lc9bu0GC8C05Vu01",
+    cta: "Become a Fractional AI Officer Client",
+    ctaHref: "https://buy.stripe.com/9B6cN5atkfzS2OK4lK5Vu02",
     highlight: false,
   },
 ];
@@ -196,16 +194,22 @@ export default function ServicesPage() {
             Not sure which to start with?
           </h2>
           <p className="text-white/50 text-lg mb-8">
-            Start with the AI Readiness Assessment. It maps your opportunities and tells you exactly where to invest.
+            Start with a free sample. See exactly what you&apos;d get before spending a dollar.
           </p>
-          <a
-            href="https://buy.stripe.com/7sY14nbxo5Zi0GCf0o5Vu00"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-lg px-10 py-5 rounded-xl transition-all shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:-translate-y-0.5"
-          >
-            Get Your AI Assessment — $197 →
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="/samples"
+              className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-lg px-10 py-5 rounded-xl transition-all shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:-translate-y-0.5"
+            >
+              See a Free Sample →
+            </a>
+            <a
+              href="mailto:support@aegisgov.ai?subject=Free RFP Analysis Request&body=Hi Frank,%0A%0AHere is the RFP I'd like analyzed:%0A%0A[paste solicitation number]"
+              className="inline-flex items-center gap-2 border border-gold/40 hover:border-gold text-gold font-bold text-lg px-10 py-5 rounded-xl transition-all"
+            >
+              Submit Your RFP
+            </a>
+          </div>
         </div>
       </section>
     </>

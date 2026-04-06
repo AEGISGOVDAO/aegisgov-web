@@ -35,23 +35,23 @@ const problems = [
 const funnelSteps = [
   {
     num: "01",
-    name: "Assessment",
-    price: "$197",
-    desc: "Know exactly where AI saves you time",
+    name: "RFP Breakdown",
+    price: "$1,500 – $2,500",
+    desc: "Compliance checklist, proposal outline, win themes — for your exact bid",
     highlight: true,
   },
   {
     num: "02",
-    name: "Proposal Automation",
-    price: "$2,997",
-    desc: "We build your AI proposal system",
+    name: "Full Proposal Build",
+    price: "Included in package",
+    desc: "We draft the full response. Standard or complex multi-volume RFPs",
     highlight: false,
   },
   {
     num: "03",
     name: "Fractional AI Officer",
     price: "$2,500/mo",
-    desc: "Ongoing AI operations, handled",
+    desc: "Ongoing AI-powered proposal ops, bid tracking, and compliance support",
     highlight: false,
   },
 ];
@@ -69,7 +69,7 @@ export default function HomePage() {
           <div className="max-w-3xl">
             <div className="inline-flex items-center gap-2 bg-gold/10 border border-gold/20 rounded-full px-4 py-2 mb-8">
               <span className="w-2 h-2 bg-gold rounded-full animate-pulse" />
-              <span className="text-gold text-sm font-medium">AI Readiness Assessment for GovCon</span>
+              <span className="text-gold text-sm font-medium">AI-Powered Proposal Intelligence for Federal Contractors</span>
             </div>
 
             <h1 className="text-5xl md:text-7xl font-black leading-[1.05] mb-6 tracking-tight">
@@ -79,26 +79,30 @@ export default function HomePage() {
             </h1>
 
             <p className="text-xl md:text-2xl text-white/60 mb-10 leading-relaxed font-light max-w-2xl">
-              Government contractors using AI are winning bids faster. The ones who aren&apos;t are losing them.{" "}
-              <span className="text-white/80">Find out exactly where AI saves your firm time — in 24 hours.</span>
+              We break down federal RFPs into compliance checklists, proposal outlines, and win themes.{" "}
+              <span className="text-white/80">First analysis free. Full proposal packages from $1,500.</span>
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-start">
-              <a
-                href={ASSESSMENT_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/samples"
                 className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:-translate-y-0.5"
               >
-                Get Your AI Assessment — $197
+                See a Sample Breakdown — Free
                 <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                 </svg>
+              </Link>
+              <a
+                href="mailto:support@aegisgov.ai?subject=Free RFP Analysis Request&body=Hi Frank,%0A%0AHere is the RFP I'd like analyzed:%0A%0A[paste solicitation number or attach document]"
+                className="inline-flex items-center gap-2 border border-gold/40 hover:border-gold text-gold font-bold text-lg px-8 py-4 rounded-xl transition-all"
+              >
+                Submit Your RFP
               </a>
             </div>
 
             <p className="text-white/40 text-sm mt-4">
-              Delivered in 24 hours. Includes your custom roadmap. 100% satisfaction guarantee.
+              Free first analysis · Standard package $1,500 · Complex package $2,500 · Delivered in 24 hours
             </p>
 
             <div className="mt-8 pt-8 border-t border-white/10">
@@ -169,23 +173,23 @@ export default function HomePage() {
             <div>
               <span className="section-label">What You Get</span>
               <h2 className="text-4xl md:text-5xl font-black mt-4 mb-6">
-                Your AI Readiness Assessment —{" "}
-                <span className="text-gradient-gold">$197</span>
+                RFP Breakdown —{" "}
+                <span className="text-gradient-gold">$1,500 – $2,500</span>
               </h2>
               <div className="flex items-center gap-2 mb-8">
                 <svg className="w-5 h-5 text-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <span className="text-white/60 text-sm font-medium">Delivered within 24 hours</span>
+                <span className="text-white/60 text-sm font-medium">Delivered within 24 hours · First analysis free</span>
               </div>
 
               <ul className="space-y-4 mb-10">
                 {[
-                  "Your top 5 AI automation opportunities (ranked by ROI)",
-                  "Estimated hours saved per week",
-                  "Tool recommendations with costs",
-                  "30-day implementation roadmap",
-                  "Written for YOUR business — not a generic template",
+                  "Compliance checklist mapped directly to your RFP requirements",
+                  "Full proposal outline with section-by-section structure",
+                  "Key win themes aligned to agency evaluation criteria",
+                  "Full proposal draft included (standard or complex multi-volume)",
+                  "Written for YOUR exact solicitation — not a template",
                 ].map((item) => (
                   <li key={item} className="flex items-start gap-3 text-white/70 text-sm">
                     <svg className="w-5 h-5 text-gold flex-shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -196,18 +200,25 @@ export default function HomePage() {
                 ))}
               </ul>
 
-              <a
-                href={ASSESSMENT_LINK}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-lg px-8 py-4 rounded-xl transition-all shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:-translate-y-0.5"
-              >
-                Get Your Assessment Now — $197
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </a>
-              <p className="text-white/30 text-xs mt-3">100% satisfaction guarantee. Delivered in 24 hours.</p>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <a
+                  href="https://buy.stripe.com/eVqcN5atkdrK4WS7xW5Vu03"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-base px-6 py-3 rounded-xl transition-all shadow-lg shadow-gold/30 hover:shadow-gold/50"
+                >
+                  Standard Package — $1,500
+                </a>
+                <a
+                  href="https://buy.stripe.com/00w6oH44WdrKblg2dC5Vu04"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 border border-gold/40 hover:border-gold text-gold font-bold text-base px-6 py-3 rounded-xl transition-all"
+                >
+                  Complex Package — $2,500
+                </a>
+              </div>
+              <p className="text-white/30 text-xs mt-3">Not ready to buy? <Link href="/samples" className="text-gold/60 hover:text-gold">See a free sample first →</Link></p>
             </div>
 
             {/* Visual card */}
@@ -220,17 +231,17 @@ export default function HomePage() {
                     </svg>
                   </div>
                   <div>
-                    <p className="text-white font-bold text-sm">AI Readiness Assessment</p>
+                    <p className="text-white font-bold text-sm">RFP Breakdown Package</p>
                     <p className="text-gold text-xs">Delivered in 24 hours</p>
                   </div>
                 </div>
                 <div className="space-y-4">
                   {[
-                    { label: "Top 5 AI opportunities", badge: "Ranked by ROI" },
-                    { label: "Hours saved per week", badge: "Estimated" },
-                    { label: "Tool recommendations", badge: "With costs" },
-                    { label: "30-day roadmap", badge: "Custom" },
-                    { label: "Written for your firm", badge: "Not generic" },
+                    { label: "Compliance checklist", badge: "Mapped to your RFP" },
+                    { label: "Full proposal outline", badge: "Section by section" },
+                    { label: "Key win themes", badge: "Agency-aligned" },
+                    { label: "Full proposal draft", badge: "Included" },
+                    { label: "Written for your exact bid", badge: "Not a template" },
                   ].map((item) => (
                     <div key={item.label} className="flex items-center justify-between bg-navy-mid rounded-lg px-4 py-3">
                       <div className="flex items-center gap-3">
@@ -244,8 +255,8 @@ export default function HomePage() {
                   ))}
                 </div>
                 <div className="mt-6 pt-4 border-t border-white/10 text-center">
-                  <p className="text-gold font-black text-2xl">$197</p>
-                  <p className="text-white/40 text-xs mt-1">One-time. No subscription.</p>
+                  <p className="text-gold font-black text-2xl">$1,500 – $2,500</p>
+                  <p className="text-white/40 text-xs mt-1">Standard or complex. First analysis free.</p>
                 </div>
               </div>
               <div className="absolute -inset-4 bg-gold/5 rounded-3xl blur-xl -z-10" />
@@ -264,7 +275,7 @@ export default function HomePage() {
               Start small. Scale fast.
             </h2>
             <p className="text-white/50 text-lg max-w-xl mx-auto">
-              Most clients start with the Assessment. Once they see the ROI, the next steps are obvious.
+              Most clients start with a free sample. Once they see the output, the decision is easy.
             </p>
           </div>
 
@@ -313,29 +324,34 @@ export default function HomePage() {
           </div>
 
           <h2 className="text-4xl md:text-5xl font-black mb-6">
-            Colorado AI Act takes effect{" "}
-            <span className="text-gradient-gold">June 30, 2026</span> —{" "}
-            97 days. Are you compliant?
+            Working a bid right now?{" "}
+            <span className="text-gradient-gold">Send us the RFP.</span>
           </h2>
           <p className="text-white/50 text-xl mb-4 max-w-2xl mx-auto">
-            Companies that adopt AI now will out-bid competitors who don&apos;t. This window closes.
+            We return a full breakdown within 24 hours — compliance checklist, proposal outline, win themes. First one free.
           </p>
           <p className="text-white/30 text-base mb-10">
-            Don&apos;t wait until the deadline forces your hand. Know where you stand — today.
+            If it helps your bid, the full proposal package starts at $1,500. No pressure until you see the value.
           </p>
-          <a
-            href={ASSESSMENT_LINK}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-lg px-10 py-5 rounded-xl transition-all shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:-translate-y-0.5"
-          >
-            Get Your AI Assessment — $197
-            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-            </svg>
-          </a>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link
+              href="/samples"
+              className="inline-flex items-center gap-2 bg-gold hover:bg-gold-light text-navy font-black text-lg px-10 py-5 rounded-xl transition-all shadow-lg shadow-gold/30 hover:shadow-gold/50 hover:-translate-y-0.5"
+            >
+              See a Free Sample First
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg>
+            </Link>
+            <a
+              href="mailto:support@aegisgov.ai?subject=Free RFP Analysis Request&body=Hi Frank,%0A%0AHere is the RFP I'd like analyzed:%0A%0A[paste solicitation number or attach document]"
+              className="inline-flex items-center gap-2 border border-gold/40 hover:border-gold text-gold font-bold text-lg px-10 py-5 rounded-xl transition-all"
+            >
+              Submit Your RFP
+            </a>
+          </div>
           <p className="text-white/30 text-sm mt-4">
-            Delivered in 24 hours · Custom roadmap · 100% satisfaction guarantee
+            Standard $1,500 · Complex $2,500 · Fractional AI Officer $2,500/mo · Delivered in 24 hours
           </p>
         </div>
       </section>
