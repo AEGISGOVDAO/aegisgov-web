@@ -76,8 +76,26 @@ export default function HHS3Page() {
       <div className="mt-6 mb-2 inline-block px-3 py-1 bg-yellow-100 border border-yellow-300 rounded text-xs font-bold text-yellow-800 uppercase tracking-wider">Sample Breakdown</div>
       <h1 className="text-3xl font-extrabold mt-4 mb-2 leading-tight">Data Analytics & AI/ML Platform Services</h1>
       <p className="text-base text-gray-500 mb-4">Based on real federal solicitation structure — HHS / 8(a) Small Business</p>
-      <div className="mb-8 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+      <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
         <p className="text-sm text-amber-800 font-medium m-0">This is a sample generated to demonstrate analysis capabilities. We run this same process on your exact RFP.</p>
+      </div>
+
+      <div className="mb-8 grid md:grid-cols-3 gap-4">
+        <div className="p-5 bg-gray-900 rounded-xl text-white">
+          <div className="text-2xl mb-2">📋</div>
+          <h3 className="font-bold text-sm mb-1">What this is</h3>
+          <p className="text-gray-400 text-sm leading-relaxed">A complete breakdown of a federal AI/ML data analytics RFP — FISMA requirements, 8(a) compliance, Section 508, bias documentation, and the proposal structure HHS evaluators expect.</p>
+        </div>
+        <div className="p-5 bg-gray-900 rounded-xl text-white">
+          <div className="text-2xl mb-2">⚡</div>
+          <h3 className="font-bold text-sm mb-1">What we did</h3>
+          <p className="text-gray-400 text-sm leading-relaxed">We mapped every FISMA, HIPAA, and Section 508 requirement, structured all proposal volumes with evaluator guidance, and identified what separates winning AI/ML bids at HHS.</p>
+        </div>
+        <div className="p-5 bg-gray-900 rounded-xl text-white">
+          <div className="text-2xl mb-2">💰</div>
+          <h3 className="font-bold text-sm mb-1">What it means for you</h3>
+          <p className="text-gray-400 text-sm leading-relaxed">HHS 8(a) contracts are highly competitive. The teams that win know exactly which compliance items get proposals rejected before they’re even scored. This shows you those items.</p>
+        </div>
       </div>
       <div className="flex gap-6 flex-wrap mb-10 p-5 bg-gray-50 rounded-xl border border-gray-200">
         {meta.map(([label, val]) => (

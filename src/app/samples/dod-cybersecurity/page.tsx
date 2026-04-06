@@ -75,8 +75,26 @@ export default function DOD2Page() {
       <div className="mt-6 mb-2 inline-block px-3 py-1 bg-yellow-100 border border-yellow-300 rounded text-xs font-bold text-yellow-800 uppercase tracking-wider">Sample Breakdown</div>
       <h1 className="text-3xl font-extrabold mt-4 mb-2 leading-tight">Cybersecurity Operations & CMMC Compliance Support</h1>
       <p className="text-base text-gray-500 mb-4">Based on real federal solicitation structure — DoD Cybersecurity / Small Business</p>
-      <div className="mb-8 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+      <div className="mb-6 p-4 bg-amber-50 border border-amber-200 rounded-lg">
         <p className="text-sm text-amber-800 font-medium m-0">This is a sample generated to demonstrate analysis capabilities. We run this same process on your exact RFP.</p>
+      </div>
+
+      <div className="mb-8 grid md:grid-cols-3 gap-4">
+        <div className="p-5 bg-gray-900 rounded-xl text-white">
+          <div className="text-2xl mb-2">📋</div>
+          <h3 className="font-bold text-sm mb-1">What this is</h3>
+          <p className="text-gray-400 text-sm leading-relaxed">A complete breakdown of a DoD cybersecurity RFP — CMMC requirements, SOC expectations, and the compliance items most teams miss until it’s too late to fix them.</p>
+        </div>
+        <div className="p-5 bg-gray-900 rounded-xl text-white">
+          <div className="text-2xl mb-2">⚡</div>
+          <h3 className="font-bold text-sm mb-1">What we did</h3>
+          <p className="text-gray-400 text-sm leading-relaxed">We mapped every CMMC and DFARS requirement, structured all proposal volumes, and identified the 5 technical differentiators that separate winning bids from also-rans.</p>
+        </div>
+        <div className="p-5 bg-gray-900 rounded-xl text-white">
+          <div className="text-2xl mb-2">💰</div>
+          <h3 className="font-bold text-sm mb-1">What it means for you</h3>
+          <p className="text-gray-400 text-sm leading-relaxed">You know exactly what the evaluator is scoring before you write a word. CMMC proposals that miss compliance items are rejected outright — this prevents that.</p>
+        </div>
       </div>
       <div className="flex gap-6 flex-wrap mb-10 p-5 bg-gray-50 rounded-xl border border-gray-200">
         {meta.map(([label, val]) => (
