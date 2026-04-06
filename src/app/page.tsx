@@ -35,23 +35,23 @@ const problems = [
 const funnelSteps = [
   {
     num: "01",
-    name: "RFP Breakdown",
-    price: "$1,500 – $2,500",
-    desc: "Compliance checklist, proposal outline, win themes — for your exact bid",
+    name: "Free RFP Analysis",
+    price: "Free",
+    desc: "Send us any federal IT RFP. We return a full breakdown in 24 hours — no cost, no commitment",
     highlight: true,
   },
   {
     num: "02",
-    name: "Full Proposal Build",
-    price: "Included in package",
-    desc: "We draft the full response. Standard or complex multi-volume RFPs",
+    name: "Proposal Package",
+    price: "$1,500 – $2,500",
+    desc: "Full proposal draft, compliance matrix, win themes. Standard or complex multi-volume RFPs",
     highlight: false,
   },
   {
     num: "03",
     name: "Fractional AI Officer",
     price: "$2,500/mo",
-    desc: "Ongoing AI-powered proposal ops, bid tracking, and compliance support",
+    desc: "Unlimited RFP support, ongoing bid ops, SAM.gov monitoring, and compliance tracking",
     highlight: false,
   },
 ];
