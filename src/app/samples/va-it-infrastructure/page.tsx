@@ -56,20 +56,22 @@ const themes = [
 ]
 
 const meta = [
-  ['Solicitation', 'VA-27-24-RFQ-0091'],
-  ['NAICS', '541512'],
-  ['Set-Aside', 'SDVOSB'],
-  ['Est. Value', '$8.5M IDIQ'],
-  ['Deadline', 'April 30, 2026'],
+  ['NAICS', '541512 — Computer Systems Design'],
+  ['Set-Aside Type', 'SDVOSB'],
+  ['Contract Type', 'IDIQ'],
+  ['Scope', 'Infrastructure Modernization + Service Desk'],
 ]
 
 export default function VA1Page() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12 text-gray-900 font-sans">
       <Link href="/samples" className="text-blue-600 text-sm font-medium hover:underline">← Back to all samples</Link>
-      <div className="mt-6 mb-2 inline-block px-3 py-1 bg-yellow-100 border border-yellow-300 rounded text-xs font-bold text-yellow-800 uppercase tracking-wider">Sample AI-Generated RFP Breakdown</div>
+      <div className="mt-6 mb-2 inline-block px-3 py-1 bg-yellow-100 border border-yellow-300 rounded text-xs font-bold text-yellow-800 uppercase tracking-wider">Sample Breakdown</div>
       <h1 className="text-3xl font-extrabold mt-4 mb-2 leading-tight">IT Infrastructure Modernization & Support Services</h1>
-      <p className="text-base text-gray-500 mb-8">Department of Veterans Affairs — VACO IT Operations</p>
+      <p className="text-base text-gray-500 mb-4">Based on real federal solicitation structure — IT Services / SDVOSB</p>
+      <div className="mb-8 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+        <p className="text-sm text-amber-800 font-medium m-0">This is a sample generated to demonstrate analysis capabilities. We run this same process on your exact RFP.</p>
+      </div>
       <div className="flex gap-6 flex-wrap mb-10 p-5 bg-gray-50 rounded-xl border border-gray-200">
         {meta.map(([label, val]) => (
           <div key={label}>

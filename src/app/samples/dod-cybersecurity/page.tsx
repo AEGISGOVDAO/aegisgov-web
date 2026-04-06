@@ -52,20 +52,22 @@ const themes = [
 ]
 
 const meta = [
-  ['Solicitation', 'DISA-CMMC-26-0044'],
-  ['NAICS', '541519'],
-  ['Set-Aside', 'Total Small Business'],
-  ['Est. Value', '$4.2M'],
-  ['Deadline', 'May 15, 2026'],
+  ['NAICS', '541519 — Other Computer Related Services'],
+  ['Set-Aside Type', 'Small Business'],
+  ['Contract Type', 'Firm Fixed Price'],
+  ['Scope', 'SOC Operations + CMMC Implementation'],
 ]
 
 export default function DOD2Page() {
   return (
     <main className="max-w-3xl mx-auto px-6 py-12 text-gray-900 font-sans">
       <Link href="/samples" className="text-blue-600 text-sm font-medium hover:underline">← Back to all samples</Link>
-      <div className="mt-6 mb-2 inline-block px-3 py-1 bg-yellow-100 border border-yellow-300 rounded text-xs font-bold text-yellow-800 uppercase tracking-wider">Sample AI-Generated RFP Breakdown</div>
+      <div className="mt-6 mb-2 inline-block px-3 py-1 bg-yellow-100 border border-yellow-300 rounded text-xs font-bold text-yellow-800 uppercase tracking-wider">Sample Breakdown</div>
       <h1 className="text-3xl font-extrabold mt-4 mb-2 leading-tight">Cybersecurity Operations & CMMC Compliance Support</h1>
-      <p className="text-base text-gray-500 mb-8">Dept of Defense — Defense Information Systems Agency (DISA)</p>
+      <p className="text-base text-gray-500 mb-4">Based on real federal solicitation structure — DoD Cybersecurity / Small Business</p>
+      <div className="mb-8 p-4 bg-amber-50 border border-amber-200 rounded-lg">
+        <p className="text-sm text-amber-800 font-medium m-0">This is a sample generated to demonstrate analysis capabilities. We run this same process on your exact RFP.</p>
+      </div>
       <div className="flex gap-6 flex-wrap mb-10 p-5 bg-gray-50 rounded-xl border border-gray-200">
         {meta.map(([label, val]) => (
           <div key={label}>

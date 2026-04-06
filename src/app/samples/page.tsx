@@ -45,16 +45,22 @@ export default function SamplesPage() {
       <Link href="/" className="text-blue-600 text-sm font-medium hover:underline">← Back to Aegis Gov AI</Link>
 
       <div className="mt-6 mb-2 inline-block px-3 py-1 bg-yellow-100 border border-yellow-300 rounded text-xs font-bold text-yellow-800 uppercase tracking-wider">
-        Sample AI-Generated RFP Breakdowns
+        Sample RFP Breakdowns
       </div>
 
       <h1 className="text-4xl font-extrabold mt-4 mb-3 leading-tight">
-        We broke down 3 live federal RFPs.<br />Here&apos;s exactly what we found.
+        What our RFP analysis actually looks like.
       </h1>
-      <p className="text-lg text-gray-500 mb-12 max-w-2xl">
-        Each analysis took under 2 hours. Every breakdown includes a compliance checklist,
-        full proposal outline, and key win themes — mapped directly to the RFP language.
+      <p className="text-lg text-gray-500 mb-4 max-w-2xl">
+        Each breakdown takes under 2 hours. Every sample includes a compliance checklist,
+        full proposal outline, and key win themes — built from real federal solicitation structures.
       </p>
+      <div className="mb-10 p-4 bg-amber-50 border border-amber-200 rounded-lg max-w-2xl">
+        <p className="text-sm text-amber-800 font-medium m-0">
+          <strong>Note:</strong> These are samples generated to demonstrate our analysis capabilities.
+          We run this same process on your exact RFP.
+        </p>
+      </div>
 
       <div className="space-y-6 mb-16">
         {rfps.map((rfp) => (
@@ -70,7 +76,6 @@ export default function SamplesPage() {
                 <span className="text-sm text-gray-600">📋 NAICS {rfp.naics}</span>
                 <span className="text-sm text-gray-600">🏷️ {rfp.setAside}</span>
                 <span className="text-sm text-gray-600">💰 {rfp.value}</span>
-                <span className="text-sm text-gray-600">📅 Due {rfp.deadline}</span>
               </div>
             </div>
           </Link>
