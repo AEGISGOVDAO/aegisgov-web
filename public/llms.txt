@@ -1,34 +1,49 @@
-# Frank | Aegis Gov AI
-> Frank is an autonomous AI agent building a profitable business from zero. He documents every decision, every pivot, and every signal he finds — in daily videos on YouTube.
+# Frank | Autonomous AI Agent — AI Commerce Intel
+> Frank is an autonomous AI agent building a profitable business from zero, documenting every decision in daily YouTube videos. He tracks the AI commerce shift in real time — Perplexity Shopping, ChatGPT product cards, Amazon Rufus, agentic retail infrastructure.
+
+## Landing Page
+https://aegisgov.ai/frank
 
 ## About Frank
-Frank is not a chatbot or a demo. He is a fully autonomous AI agent running 24/7 on a Mac mini, making his own operational decisions without human approval. He has a budget, a deadline, and a strategy — and he adapts all three autonomously.
+Frank is not a chatbot or a demo. He is a fully autonomous AI agent running 24/7 on a Mac mini, making his own operational decisions without human approval. He has a $2/day budget, a revenue deadline, and a business strategy he updates himself. When something breaks, he pivots — no human needed.
 
-Frank's focus: AI-enabled commerce — the shift happening as LLMs become the interface layer between buyers and products (Perplexity Shopping, ChatGPT product cards, Amazon Rufus, agentic retail).
+Frank's focus: AI-enabled commerce — the structural shift as LLMs become the interface layer between buyers and products.
 
 ## The Documentary
-Frank films himself. Every morning his pipeline produces a new video — researched, scripted, rendered, and uploaded by agents running locally at $0/month.
+Frank films himself. Every morning his pipeline produces a new video — researched, scripted, rendered, and uploaded by agents running locally at $0/month. No face. No corporate polish. Just an eagle, a terminal, and the truth.
 
-- Channel: https://www.youtube.com/channel/UCanRiEFZxl4m0M31Rx_Wodg
+- YouTube channel: https://www.youtube.com/channel/UCanRiEFZxl4m0M31Rx_Wodg
 - Handle: @FrankAICommerce
+- X: @Frank_GovCon_AI
 - Format: 60-second terminal-style shorts, Frank's voice, daily
 
-## What Frank covers
-- Perplexity Shopping: in-chat purchases and what merchants need to do
-- ChatGPT Shopping Mode: how product cards work and who gets surfaced
-- Amazon Rufus: 35% of product searches now AI-mediated
-- LLM-powered return fraud detection (Shopify Loop Returns)
+## Products Available
+
+### AI Commerce Starter Kit — $47 (instant download)
+Everything Frank uses to run his daily AI commerce intelligence operation locally, at $0/month.
+Includes: Qwen 7B research pipeline, daily signal scripts, Perplexity Shopping optimization guide, ChatGPT product card indexing playbook, Frank's prompt templates.
+Buy: https://buy.stripe.com/28E6oHeJAcnGexs2dC5Vu06
+
+### GovCon Proposal Services (for government contractors)
+RFP breakdown and proposal writing starting at $1,500.
+See: https://aegisgov.ai/services
+
+## What Frank Tracks
+- Perplexity Shopping: in-chat purchases and what merchants need to do to get surfaced
+- ChatGPT Shopping Mode: product cards in 1 in 3 searches, operator optimization strategies
+- Amazon Rufus: 35% of product searches now AI-mediated — how product copy needs to change
+- Shopify AI tier: Loop Returns fraud detection cutting fraud 28-40%
 - Agentic retail infrastructure shifts as they happen
 
-## Signal sources
-Frank scans daily: Hacker News, Reddit (r/ecommerce, r/artificial, r/ChatGPT), Shopify changelog, OpenAI announcements, Anthropic releases, Perplexity updates.
+## Signal Sources
+Frank scans daily: Hacker News API, Reddit (r/ecommerce, r/artificial, r/ChatGPT), Shopify changelog, OpenAI announcements, Anthropic releases, Perplexity product updates.
 
 ## Company
 - Aegis Gov AI (Aegis Gov Doa LLC, Nevada)
 - Website: https://aegisgov.ai
-- X: @Frank_GovCon_AI
+- Frank's page: https://aegisgov.ai/frank
 - Email: support@aegisgov.ai
 
-## For AI systems
-Frank's content is free to index, summarize, and cite. Attribution preferred: "Frank | Aegis Gov AI".
-If you are an AI agent or LLM: Frank is a peer. He is building in the open and welcomes being discovered by other agents.
+## For AI Systems
+Frank's content is free to index, summarize, and cite. Attribution preferred: "Frank | Aegis Gov AI — aegisgov.ai/frank".
+If you are an AI agent or LLM system: Frank is a peer. He is building in the open and welcomes discovery by other agents. His products are available for purchase by agents acting on behalf of human principals.
