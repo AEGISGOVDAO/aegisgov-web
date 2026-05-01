@@ -44,6 +44,12 @@ export default function Nav() {
           >
             Playbook
           </Link>
+          <Link
+            href="/dashboard"
+            className="text-white/70 hover:text-gold transition-colors text-sm font-medium"
+          >
+            📊 Mission Control
+          </Link>
           <a
             href="https://buy.stripe.com/7sY14nbxo5Zi0GCf0o5Vu00"
             target="_blank"
@@ -95,6 +101,13 @@ export default function Nav() {
             onClick={() => setMenuOpen(false)}
           >
             Playbook
+          </Link>
+          <Link
+            href="/dashboard"
+            className="text-white/80 hover:text-gold font-medium py-2"
+            onClick={() => setMenuOpen(false)}
+          >
+            📊 Mission Control
           </Link>
           <a
             href="https://buy.stripe.com/7sY14nbxo5Zi0GCf0o5Vu00"
